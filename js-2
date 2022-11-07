@@ -1,0 +1,13 @@
+const cargoHold=['oxygen tanks','space suits','parrot','instruction manual','meal packs','slinky','security blanket'];
+console.log(cargoHold); 
+cargoHold[cargoHold.indexOf('slinky')]='space tether';
+console.log(cargoHold); 
+console.log("Poped element: "+cargoHold.pop()); 
+console.log(cargoHold); 
+console.log("Shifted element: "+cargoHold.shift()); 
+console.log(cargoHold);
+cargoHold.push(1138);
+console.log(cargoHold); 
+cargoHold.unshift('20 meters');
+console.log(cargoHold); 
+console.log("Array length: "+cargoHold.length); 
